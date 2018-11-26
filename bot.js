@@ -37,7 +37,7 @@ const queue = new Map();
  
  
  
-var prefix = "4" 
+var prefix = "9" 
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
    
@@ -229,7 +229,7 @@ function play(guild, song) {
     serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
 }
  
-const adminprefix = "4";
+const adminprefix = "9";
 const devs = ['505811134528356352'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
